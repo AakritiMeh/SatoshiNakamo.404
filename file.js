@@ -1,10 +1,5 @@
-document.getElementsByClassName('form').addEventListener('submit', function(event) {
-     
+document.getElementById("TransportAdmin").addEventListener("click", redirectFunction);
+function redirectFunction(){
+    window.location.href("transport.html");
+}
 
-    try {
-      document.getElementById('inputField').value = '';
-      alert('Success! Form submitted successfully.');
-    } catch (error) {
-      alert('Error: ' + error.message);
-    }
-  });

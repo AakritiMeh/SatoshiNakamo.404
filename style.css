@@ -221,7 +221,10 @@ h1{
 
 /**/
 
-
+#signup{
+    background-color:rgb(202, 202, 202);
+    border:2rem double black;
+}
   
 
 
